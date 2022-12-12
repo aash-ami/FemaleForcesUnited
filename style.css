@@ -1,0 +1,270 @@
+p{
+
+    color: black;
+
+}
+
+body{
+    background:url(adventure.jpg) center/cover no-repeat;
+    height:100vh;
+    margin:0
+}
+.container{
+    padding: 60px
+}
+
+
+.container{
+    height:1050px;
+    width:102px;
+    border:1px solid gray;
+    left:0;
+    right:0;
+    top:0;
+    bottom:0;
+    margin: auto;
+    border-radius: 0%;
+    vertical-align:middle;
+
+}
+
+
+
+.lines::after, .lines::before{
+    content:'';
+    position:absolute;
+    margin:auto;
+    height:1px;
+    background:black;
+    width: 45%;
+    top:45%;
+   
+}
+.lines::after{
+    left:0
+}
+
+.lines::before{
+    right:0
+
+}
+.container{
+    height:1350px;
+    width:1020px;
+    border:1px solid gray;
+    left:0;
+    right:0;
+    top:0;
+    bottom:0;
+    margin: auto;
+    border-radius: 0%;
+    vertical-align:middle;
+
+}
+
+
+ .logo {
+    position:relative;
+    margin-top: 1px; 
+    margin-bottom: 80px; 
+    
+
+    
+ }
+
+
+.GlitchCo {
+    min-height: 0vh;
+    position: relative;
+    background-size: cover;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+}
+
+.GlitchCoContainer {
+    overflow:hidden;
+}
+
+.GlitchCoContainer h1 {
+    color:black;
+    position: absolute;
+    bottom: 2rem;
+    max-width: 550px;
+    padding-right: 1.5rem;
+}
+
+body {
+    margin:0
+
+}
+
+.wrapper {
+    margin: 0 auto;
+    width: 1000px;
+}
+
+.appointment_two {
+  background-color: rgb(34, 233, 84);
+  border-radius: 10px;
+  color: white;
+  border: black;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+}
+
+.preniume {
+    position:relative;
+    margin-top: 0px; 
+    margin-bottom: 80px; 
+}
+
+
+
+
+a:visited {
+  color: black;
+  background-color: transparent;
+  text-decoration: none;
+
+}
+
+.flex-container  {
+  display: flex;
+  flex-wrap: wrap;
+ margin-left:400px;
+
+}
+
+.flex-container{
+ justify-content: space-evenly;
+ margin-left:0px;
+ }
+
+.preniumee {
+    position:relative;
+    margin-top: 30px; 
+    margin-bottom: 10px;
+    margin-left: 900px;
+    height:30px;
+    width:30px;
+}
+
+.logoe {
+    min-height: 0vh;
+    position: relative;
+    background-size: cover;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+}
+
+.preniume3 {
+    position:relative;
+    top: -44px;
+    margin-left: 890px;
+    margin-right: 5000px;
+    height:30px;
+    width:30px;
+}
+
+.basketball {
+    min-height: 0vh;
+    position: relative;
+    background-size: cover;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+}
+
+.containers{
+    height:840px;
+    width:1070px;
+    border:1px solid gray;
+    left:0;
+    right:0;
+    top:0;
+    bottom:0;
+    margin: auto;
+    border-radius: 0%;
+    vertical-align:middle;
+
+}
+
+
+.preniume4 {
+    position:relative;
+    top: -44px;
+    margin-left: 910px;
+    margin-right: 5000px;
+    height:30px;
+    width:30px;
+}
+
+.html {
+    position:relative;
+    top: -44px;
+    margin-left: 890px;
+    margin-right: 5000px;
+    height:30px;
+    width:30px;
+}
+.logoe {
+    position:relative;
+    top: -44px;
+    margin-left: 890px;
+    margin-right: 5000px;
+    height:30px;
+    width:30px;
+}
+
+body{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+
+.carousel-container{
+    width: 60%;
+    margin: auto;
+    overflow: hidden;
+}
+.carousel-slide{
+    display: flex;
+    width: 100%;
+    height: 500px;
+}
+
+.black panther {
+    position:relative;
+    top: -44px;
+    margin-left: 890px;
+    margin-right: 5000px;
+    height:30px;
+    width:30px;
+}
+
+.tennis {
+    position:relative;
+    top: -2px;
+    margin-left: 890px;
+    margin-right: 5000px;
+    height:30px;
+    width:30px;
+}
+
+.containere{
+     height:890px;
+    width:1070px;
+    border:1px solid gray;
+    left:0;
+    right:0;
+    top:0;
+    bottom:0;
+    margin: auto;
+    border-radius: 0%;
+    vertical-align:middle;
+}
