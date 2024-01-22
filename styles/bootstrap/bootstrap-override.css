@@ -6,4 +6,20 @@
     max-height: 400px !important;
   }
 
-  
+  .nav-item a{
+    color: white;
+  }
+
+  .nav-item a:hover{
+    color: white;
+    background-color: #66446e;
+  }
+
+  .our-page-image{
+    height: 400px;
+    width: 400px;    
+  }
+
+  [class*="col-"] h4, [class*="col-"] h5 {
+    color: #F5F5F5;
+  }
