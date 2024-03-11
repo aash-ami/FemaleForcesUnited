@@ -23,3 +23,7 @@
   [class*="col-"] h4, [class*="col-"] h5 {
     color: #F5F5F5;
   }
+
+  body {
+    overflow-x: hidden;
+    }

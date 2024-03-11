@@ -20,53 +20,62 @@
         "
       >
       Register</h1>
-
-        <div class="col-12 p-2">
-        <h3  style="text-align: center;">If you want to help support our cause and initiatives, Please send your donations through Cash App</h3>
-        <h4 class="text-center">
-          <a target="_new" href="https://docs.google.com/forms/d/e/1FAIpQLSdKNe0f0KzMC0TWS9XuCxlIPqVTWZPpoTrNOUyJw0pJuEU7kg/viewform?embedded=true">Click here if you do not see the registration below. Sorry for the inconvenience.</a>
-        </h4>
+      <div class="row justify-content-center p-5">
+        <div class="col-lg-9 offset-lg-3">
+          <form>
+          <div class="form-row">
+            <div class="col-md-4 mb-3">
+              <label for="FirstName" class="fw-bold">First name</label>
+              <input type="text" class="form-control" id="FirstName" placeholder="First Name" required>
+            </div>
+            <div class="col-md-4 mb-3">
+              <label for="LastName" class="fw-bold">Last name</label>
+              <input type="text" class="form-control" id="LastName" placeholder="Last Name"  required>
+            </div>
+          </div>
+          <div class="form-row">
+            <div class="col-md-6 mb-3">
+              <label for="Email" class="fw-bold">Email</label>
+              <input type="email" class="form-control" id="Email" placeholder="Enter Your Email" required>
+            </div>
+            <div class="col-md-3 mb-3">
+              <label for="Address" class="fw-bold">Address</label>
+              <input type="text" class="form-control" id="Address" placeholder="Address" required>
+            </div>
+            <div class="col-md-3 mb-3">
+              <label for="Attendees" class="fw-bold">Number of Attendees:</label>
+              <div class="custom-control custom-radio">
+                <input type="radio" id="Attendees1" name="Attendees" class="custom-control-input">
+                <label class="custom-control-label" for="Attendees1">1 ticket $70</label>
+              </div>
+              <div class="custom-control custom-radio">
+                <input type="radio" id="Attendees2" name="Attendees" class="custom-control-input">
+                <label class="custom-control-label" for="Attendees2">2 ticket $140</label>
+              </div>
+              <div class="custom-control custom-radio">
+                <input type="radio" id="Attendees3" name="Attendees" class="custom-control-input">
+                <label class="custom-control-label" for="Attendees3">3 ticket $210</label>
+              </div>
+              <div class="custom-control custom-radio">
+                <input type="radio" id="Attendees4" name="Attendees" class="custom-control-input">
+                <label class="custom-control-label" for="Attendees4">4 ticket $280</label>
+              </div>
+              <div class="custom-control custom-radio">
+                <input type="radio" id="Attendees4more" name="Attendees" class="custom-control-input">
+                <label class="custom-control-label" for="Attendees4more">More than 4 ticket</label>
+              </div>              
+            </div>
+            <div class="col-md-3 mb-3">
+              <label for="AttendeesMoreaThan4"  class="font-weight-bold">If you are purchasing more than 4 tickets, please lets us know how many tickets you will be purchasing down below. Each ticket is $70</label>
+              <input type="text" class="form-control" id="AttendeesMoreaThan4" placeholder="Enter number of attendees">
+            </div>
+          </div>
+          <button class="btn btn-primary" type="submit">Register</button>
+        </form>
         </div>
-
-        <!--<iframe src="https://docs.google.com/forms/d/e/1FAIpQLSdKNe0f0KzMC0TWS9XuCxlIPqVTWZPpoTrNOUyJw0pJuEU7kg/viewform?embedded=true" width="700" height="520" frameborder="0" marginheight="0" marginwidth="0">Loading…</iframe>-->
-<!--screenshoot>page -->
-        <div class="col-12 p-2 text-center">
-        <a target="_new" href="https://docs.google.com/forms/d/e/1FAIpQLSdKNe0f0KzMC0TWS9XuCxlIPqVTWZPpoTrNOUyJw0pJuEU7kg/viewform?embedded=true">
-          <img class="img-fluid object-fit-scale rounded-4" src="/images/FFU/Registrationforgala.jpg" alt="Register For Gala!"> 
-        </a>
-        </div>
-
-        <div class="col p-5">
-          <h3  style="text-align: center;font-family:'Montserrat', sans-serif;">Thank you for your support!</h3>
-        </div>
-
       </div>
     </div>
-  </body>
-  
-<head>
-  <meta charset="utf-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1" />
-  <meta http-equiv="X-UA-Compatible" content="IF=edge">
-  <title>Form Validation</title>
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap" rel="stylesheet">
-  <link rel="stylesheet" href="./style.css">
-  <script defer src="./register.js"></script>
-</head>
-
-<body>
-  <div class="container">
-    <form id="form" action="/">
-      <h1>Registration</h1>
-      <div class="input-control">
-        <label for="username">Username</label>
-        <input id="username" name="username" type="text">
-        <div class="error"></div>
-      </div>
-    </form>
-  </div>
+    </div>
 </body>
 
 
