@@ -26,22 +26,97 @@
           color: #eee2de;
           font-family: Staatliches;">
         Register</h1>
-      <div class="row justify-content-center p-5">
-        <div class="col-lg-8 offset-lg-2">
-          <form>
-            <div class="form-row">
-              <div class="col-md-4 mb-3">
-                <label for="FirstName" class="fw-bold"
-                  style="color: #904C7D; font-size: 25px;font-family: 'montserrat';">First name</label>
-                <input type="text" class="form-control" id="FirstName" placeholder="First Name" required>
+      <div class="reg">
+        <div class="input-box">
+          <div class="input-field">
+            <input type="text" placeholder="Full Name" required>
+            <i class='bx bxs-user' ></i>
+                    </div>
+
+          <div class="input-field">
+            <input type="text" placeholder="Email" required>
+            <i class='bx bxs-envelope' ></i>
+                    </div>
+
+
+          <div class="input-field">
+            <input type="text" placeholder="Address" required>
+            <i class='bx bx-building-house' ></i>
+                    </div>
+
+          <div class='input-field'>
+            <div class="col-md-3 mb-3" style="font-family: 'montserrat';">
+              <label for="Attendees" class="fw-bold"
+                style="color: #904C7D;font-size: 25px;font-family: 'montserrat';">Number of Attendees:</label>
+              <div class="custom-control custom-radio">
+                <input type="radio" id="Attendees1" name="Attendees" class="custom-control-input">
+                <label class="custom-control-label" for="Attendees1" style="font-size: 20px;">1 ticket $70</label>
               </div>
-              <div class="col-md-4 mb-3">
-                <label for="LastName" class="fw-bold"
-                  style="color: #904C7D;font-size: 25px;font-family: 'montserrat';">Last name</label>
-                <input type="text" class="form-control" id="LastName" placeholder="Last Name" required>
+              <div class="custom-control custom-radio">
+                <input type="radio" id="Attendees2" name="Attendees" class="custom-control-input">
+                <label class="custom-control-label" for="Attendees2" style="font-size: 20px;">2 tickets $140</label>
+              </div>
+              <div class="custom-control custom-radio">
+                <input type="radio" id="Attendees3" name="Attendees" class="custom-control-input">
+                <label class="custom-control-label" for="Attendees3" style="font-size: 20px;">3 tickets $210</label>
+              </div>
+              <div class="custom-control custom-radio">
+                <input type="radio" id="Attendees4" name="Attendees" class="custom-control-input">
+                <label class="custom-control-label" for="Attendees4" style="font-size: 20px;">4 tickets $280</label>
+              </div>
+              <div class="custom-control custom-radio">
+                <input type="radio" id="Attendees4more" name="Attendees" class="custom-control-input">
+                <label class="custom-control-label" for="Attendees4more" style="font-size: 20px;">More than 4
+                  tickets</label>
               </div>
             </div>
-            <div class="form-row">
+          </div>
+
+
+          <div class="input-field">
+            <div class="col-12">
+              <label class="font-weight-bold" style="font-size: 25px; font-family: 'montserrat';">If you are
+                purchasing more than 4 tickets, please lets us know how many tickets you will be purchasing down
+                below. Each ticket is $70</label>
+            </div>
+            <div class="col-md-3 mb-3">
+              <input type="text" class="form-control" id="AttendeesMoreaThan4" placeholder="Enter number of attendees">
+            </div>
+            <div class="custom-control">
+              <button class="btn btn-primary" type="submit" style="font-family: 'montserrat';">Register</button>
+            </div>
+          </div>
+        </div>
+      </div>
+
+
+
+      <!--<div class="row justify-content-center p-5">
+        <div class="col-lg-8 offset-lg-2">
+          <form>
+            <div class="input-field">
+              <div class="form">
+                <div class="col-md-4 mb-3">
+                  <label for="FirstName" class="fw-bold"
+                    style="color: #904C7D; font-size: 25px;font-family: 'montserrat';">Full Name</label>
+                  <img
+                    src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABgAAAAYCAYAAADgdz34AAAAAXNSR0IArs4c6QAAAURJREFUSEvF1L8rRXEYx/HXTWaEwSiZLIpVRgulKBaLzWLwa7QopURS/gRZ5FcW/wAlGWQiIykMKKX8OKdc3c69557bOW6+2znn+3zen+fp85ycKp9clfVVCujFIjp+DF1gDsdJBisBjGKTIjOfGMRBOUgSoB43aIgRuUMb3uIgSYDQ4U7CGPpwlBYwjeUEwBRW0wIGsJ8A6MdhWkAdrtEUI3CPdrykBYR1I9gqIRCmaAi7WVKUr+3B0s8efOASszj5iz1I0ij7PSmmmcTD4nKAZswEm9oVzLkTjRHaI85xihU8lHITBxgLBNeDfIcpquQ8YRx70culAJPBr2GtEtUSd4axXfg+CmjFFWpSAl4RavyOKwrYwERK8XzZfGBwIf8QBdyiJSPgDN1xgHfUZgQ8F4Yj2sFXRvEi4/+6aH/STNU7+AYkwS0ZwQsJ3gAAAABJRU5ErkJggg==" />
+                  <input type="text" class="form-control" id="FirstName" placeholder="First Name" required>
+                </div>
+              </div>
+
+
+              <div class="input-field">
+                <div class="col-md-4 mb-3">
+                  <label for="LastName" class="fw-bold"
+                    style="color: #904C7D;font-size: 25px;font-family: 'montserrat';">Last name</label>
+                  <input type="text" class="form-control" id="LastName" placeholder="Last Name" required>
+                </div>
+              </div>
+            </div>
+
+            <div class="input-field">
+            <div class="form">
               <div class="col-md-4 mb-3">
                 <label for="Email" class="fw-bold"
                   style="color: #904C7D;font-size: 25px;font-family: 'montserrat';">Email</label>
@@ -90,6 +165,7 @@
                 <button class="btn btn-primary" type="submit" style="font-family: 'montserrat';">Register</button>
               </div>
             </div>
+          </div>
           </form>
         </div>
       </div>
@@ -194,7 +270,7 @@
           </div>
         </div>
       </div>
-    </div>
+    </div> -->
 
 </body>
 <script src="/styles/bootstrap/bootstrap.bundle.min.js"></script>
