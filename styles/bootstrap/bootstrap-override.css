@@ -72,3 +72,28 @@ body {
   color: white;
   transform: rotateY(180deg);
 }
+
+
+
+.btn-1 {
+  background: #66446F;
+  border-radius: 999px;
+  box-shadow: #66446F 0 10px 20px -10px;
+  box-sizing: border-box;
+  color: #FFFFFF;
+  cursor: pointer;
+  font-family: Zilla Slab;
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 24px;
+  opacity: 1;
+  outline: 0 solid transparent;
+  padding: 7px 17px;
+ padding-bottom: 10px;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+  width: fit-content;
+  word-break: break-word;
+  border: 0;
+}
