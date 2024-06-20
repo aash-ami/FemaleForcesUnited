@@ -144,3 +144,101 @@ body {
   word-break: break-word;
   border: 0;
 }
+
+
+
+.card-container{
+  padding-block: 5rem;
+}
+
+.card-content{
+  margin-inline: 1.75rem;
+  border-radius: 1.25rem;
+  overflow: hidden;
+}
+
+.card-article{
+  width: 300px;
+  border-radius: 1.25rem;
+  overflow: hidden;
+}
+
+.card-image{
+  position: relative;
+  background-color: var(--first-color-light);
+  padding-top:1.5rem;
+  margin-bottom:-.75rem;
+}
+
+.card-data{
+  background-color: #eec3c3;
+  padding: 1.5rem 2rem;
+  border-radius: 1rem;
+  text-align: center;
+  position:relative;
+  z-index:10;
+}
+
+.swipper-button-prev::after,
+.swipper-button-next::after{
+  content:'':
+}
+
+.swipper-button-next::after,
+.swipper-button-prev::after{
+  width: inital;
+  height: inital;
+  font: size 3rem;
+  color: blue;
+  
+}
+
+.swipper-button-prev{
+  left:0;
+}
+
+.swipper-button-next{
+  right: 0;
+}
+
+.swiper-pagination-bullet{
+ background-color: pink;
+ opacity: 1;
+}
+
+.swiper-pagination-bullet-active{
+  background-color: aquamarine;
+}
+
+@media screen and (max-width:320px){
+  .card-data{
+    padding: 1rem;
+  }
+}
+
+@media scree and (min-width:768px){
+.card-content{
+  margin-inline:3rem;
+}
+
+.swipper-button-next,
+.swipper-button-prev{
+  display: block;
+}
+}
+
+@media screen and (min-width:1120px){
+.card-container{
+  max-width: 1120px;
+}
+
+.swipper-button-next{
+  right: -1rem;
+}
+
+.swipper-button-prev{
+  left:-1rem;
+}
+
+
+}
