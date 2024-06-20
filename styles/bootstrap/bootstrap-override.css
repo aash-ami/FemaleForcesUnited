@@ -82,9 +82,56 @@ body {
   box-sizing: border-box;
   color: #FFFFFF;
   cursor: pointer;
-  font-family: Zilla Slab;
+  font-family: 'Zilla Slab';
   font-size: 16px;
   font-weight: 700;
+  line-height: 24px;
+  opacity: 1;
+  outline: 0 solid transparent;
+  padding: 7px 17px;
+ padding-bottom: 10px;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+  width: fit-content;
+  word-break: break-word;
+  border: 0;
+}
+
+.btn-2 {
+  background: black;
+  border-radius: 999px;
+  box-shadow: black 0 10px 20px -10px;
+  box-sizing: border-box;
+  color: #FFFFFF;
+  cursor: pointer;
+  font-family: 'Zilla Slab';
+  font-size: 25px;
+  font-weight: 600;
+  line-height: 24px;
+  opacity: 1;
+  outline: 0 solid transparent;
+  padding: 7px 17px;
+ padding-bottom: 10px;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+  width: fit-content;
+  word-break: break-word;
+  border: 0;
+}
+
+
+.btn-3 {
+  background: black;
+  border-radius: 500px;
+  box-shadow: black 0 10px 20px -10px;
+  box-sizing: border-box;
+  color: #FFFFFF;
+  cursor: pointer;
+  font-family: 'Zilla Slab';
+  font-size: 25px;
+  font-weight: 600;
   line-height: 24px;
   opacity: 1;
   outline: 0 solid transparent;
