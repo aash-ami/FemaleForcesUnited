@@ -60,6 +60,7 @@ body {
   height: 100%;
   -webkit-backface-visibility: hidden;
   backface-visibility: hidden;
+  display: table;
 }
 
 .flip-card-front {
@@ -146,7 +147,7 @@ body {
 }
 
 
-
+/*
 .card-container{
   padding-block: 5rem;
 }
@@ -278,7 +279,7 @@ padding: 15px 15px 15px 40px;
   transform: translateY(-50%);
   font-size: 20px;
 }
-
+*/
 .card-wrapper{
   display: flex;
   justify-content: center;
@@ -294,6 +295,7 @@ padding: 15px 15px 15px 40px;
   box-shadow: 2px 6px 8px 0 rgba(22, 22, 26, 0.18);
   border: none;
   border-radius: 0;
+  width: 25rem;  
 }
 .carousel-inner {
   padding: 1em;
@@ -313,4 +315,69 @@ padding: 15px 15px 15px 40px;
   .card img {
     height: 11em;
   }
+}
+
+.card-wrapper-body-color{
+  color: #904c7d;
+}
+
+.card-title-color{
+  color: #904c7d; 
+  font-family:  'Staatliches';
+}
+
+.card-text-color{
+  color: #904c7d;
+  font-family:  'montserrat';
+}
+
+.card-body-color{
+  background-color: #eec3c3;
+}
+
+.news-bg-color{
+  background-color: #66446f;
+}
+
+.team-member-pic-size{
+  width:300px;
+  height:300px;
+  border-radius: 10px;
+}
+
+.team-flip-card-desc{
+  font-family: 'Montserrat';
+  text-align: center;
+  padding: 2em;
+  vertical-align: middle;
+  display: table-cell;
+}
+
+.news-font-outline {
+  line-height: 1.2;
+  color: #be88a2;
+  font-size: 150px;
+  font-family: 'Staatliches';
+  -webkit-text-stroke-color: #BE88A2;
+  -webkit-text-stroke-width: 0.1px;
+  -webkit-text-fill-color: transparent;
+  -webkit-background-clip: text;
+  margin-inline-start: 0px;
+  margin-inline-end: 0px;
+  font-weight: bold;
+  unicode-bidi: isolate;
+}
+
+.news-font-solid {
+  line-height: 1.2;
+  color: #be88a2;
+  font-size: 150px;
+  font-family: 'Staatliches';
+  -webkit-text-stroke-color: #BE88A2;
+  -webkit-text-stroke-width: 1px;
+  -webkit-background-clip: text;
+  margin-inline-start: 0px;
+  margin-inline-end: 0px;
+  font-weight: bold;
+  unicode-bidi: isolate;
 }
