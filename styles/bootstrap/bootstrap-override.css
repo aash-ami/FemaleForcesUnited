@@ -243,28 +243,8 @@ body {
 
 }
 
-/*registraion*/
-.reg-1{
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  min-height: 100vh;
- background: #eee2de;
-}
-
-.reg{
- width: 750px; 
- background-color: #eec3c3;
- border-radius: 10px;
- color: #BE88A2;
-}
-
-
-.reg .input-box{
-  display: flex;
-  justify-content: space-between;
-  flex-wrap: wrap;
-  background: #eec3c3;
+.site-back-color{
+  background-color: #66446e;
 }
 
 .input-box .input-field {
