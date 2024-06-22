@@ -26,48 +26,60 @@
           color: #eee2de;
           font-family: Staatliches;">
         Register</h1>
-      <div class="row justify-content-center p-5">
-        <div class="col-lg-6">
+      <div class="row p-4">
+        <div class="col-md-3"></div>
+        <div class="col-md-6">
           <form>
-            <div class="input-field">
-              <div class="form card p-4 site-back-color">
-                <div class="col-md-6 mb-3">
-                  <label for="FirstName" class="fw-bold"
-                    style="color: #eee2de; font-size: 25px;font-family: 'montserrat';">Full Name</label>
+            <div style="background-color:#66446F; border-radius: 15px;">
+              <div class="row p-2 site-back-color">
+                <!--
+                <div class="col text-center">
                   <img
-                    src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABgAAAAYCAYAAADgdz34AAAAAXNSR0IArs4c6QAAAURJREFUSEvF1L8rRXEYx/HXTWaEwSiZLIpVRgulKBaLzWLwa7QopURS/gRZ5FcW/wAlGWQiIykMKKX8OKdc3c69557bOW6+2znn+3zen+fp85ycKp9clfVVCujFIjp+DF1gDsdJBisBjGKTIjOfGMRBOUgSoB43aIgRuUMb3uIgSYDQ4U7CGPpwlBYwjeUEwBRW0wIGsJ8A6MdhWkAdrtEUI3CPdrykBYR1I9gqIRCmaAi7WVKUr+3B0s8efOASszj5iz1I0ij7PSmmmcTD4nKAZswEm9oVzLkTjRHaI85xihU8lHITBxgLBNeDfIcpquQ8YRx70culAJPBr2GtEtUSd4axXfg+CmjFFWpSAl4RavyOKwrYwERK8XzZfGBwIf8QBdyiJSPgDN1xgHfUZgQ8F4Yj2sFXRvEi4/+6aH/STNU7+AYkwS0ZwQsJ3gAAAABJRU5ErkJggg==" />
+                    src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABgAAAAYCAYAAADgdz34AAAAAXNSR0IArs4c6QAAAURJREFUSEvF1L8rRXEYx/HXTWaEwSiZLIpVRgulKBaLzWLwa7QopURS/gRZ5FcW/wAlGWQiIykMKKX8OKdc3c69557bOW6+2znn+3zen+fp85ycKp9clfVVCujFIjp+DF1gDsdJBisBjGKTIjOfGMRBOUgSoB43aIgRuUMb3uIgSYDQ4U7CGPpwlBYwjeUEwBRW0wIGsJ8A6MdhWkAdrtEUI3CPdrykBYR1I9gqIRCmaAi7WVKUr+3B0s8efOASszj5iz1I0ij7PSmmmcTD4nKAZswEm9oVzLkTjRHaI85xihU8lHITBxgLBNeDfIcpquQ8YRx70culAJPBr2GtEtUSd4axXfg+CmjFFWpSAl4RavyOKwrYwERK8XzZfGBwIf8QBdyiJSPgDN1xgHfUZgQ8F4Yj2sFXRvEi4/+6aH/STNU7+AYkwS0ZwQsJ3gAAAABJRU5ErkJggg==" width="100px" height="100px"/>
+                </div>
+                -->
+                <div class="col-12 mb-2" style="
+                padding-top: 15px;
+                padding-left: 50px;
+                padding-right: 50px;
+            ">
+                  <label for="FullName" class="fw-bold"
+                    style="color: #EEE2DE; font-size: 25px;font-family: 'montserrat';">Full Name</label>                
                   <input type="text" class="form-control" id="FullName" placeholder="Full Name" required>
                 </div>
-                <div class="col-md-6 mb-3">
+                <div class="col-12 mb-2" style="padding-left: 50px;
+    padding-right: 50px;">
                   <label for="Email" class="fw-bold"
-                    style="color: #eee2de;font-size: 25px;font-family: 'montserrat';">Email</label>
+                    style="color: #EEE2DE;font-size: 25px;font-family: 'montserrat';">Email</label>
                   <input type="email" class="form-control" id="Email" placeholder="Enter Your Email" required>
                 </div>
-                <div class="col-md-6 mb-3">
+                <div class="col-12 mb-2" style="padding-left: 50px;
+    padding-right: 50px;">
                   <label for="Address" class="fw-bold"
-                    style="color: #eee2de;font-size: 25px;font-family: 'montserrat';">Address</label>
+                    style="color: #EEE2DE;font-size: 25px;font-family: 'montserrat';">Address</label>
                   <input type="text" class="form-control" id="Address" placeholder="Address" required>
                 </div>
-                <div class="col-md-6 mb-3" style="font-family: 'montserrat';">
+                <div class="col-12 mb-2" style="font-family: 'montserrat'; padding-left: 50px;
+    padding-right: 50px;">
                   <label for="Attendees" class="fw-bold"
                     style="color: #eee2de;font-size: 25px;font-family: 'montserrat';">Number of Attendees:</label>
                   <div class="custom-control custom-radio">
                     <input type="radio" id="Attendees1" name="Attendees" class="custom-control-input">
-                    <label class="custom-control-label" for="Attendees1" style="font-size: 20px;">1 ticket $70</label>
+                    <label class="custom-control-label" for="Attendees1" style="font-size: 20px;">1 ticket - $70</label>
                   </div>
                   <div class="custom-control custom-radio">
                     <input type="radio" id="Attendees2" name="Attendees" class="custom-control-input">
-                    <label class="custom-control-label" for="Attendees2" style="font-size: 20px;">2 tickets
+                    <label class="custom-control-label" for="Attendees2" style="font-size: 20px;">2 tickets - 
                       $140</label>
                   </div>
                   <div class="custom-control custom-radio">
                     <input type="radio" id="Attendees3" name="Attendees" class="custom-control-input">
-                    <label class="custom-control-label" for="Attendees3" style="font-size: 20px;">3 tickets
+                    <label class="custom-control-label" for="Attendees3" style="font-size: 20px;">3 tickets - 
                       $210</label>
                   </div>
                   <div class="custom-control custom-radio">
                     <input type="radio" id="Attendees4" name="Attendees" class="custom-control-input">
-                    <label class="custom-control-label" for="Attendees4" style="font-size: 20px;">4 tickets
+                    <label class="custom-control-label" for="Attendees4" style="font-size: 20px;">4 tickets - 
                       $280</label>
                   </div>
                   <div class="custom-control custom-radio">
@@ -76,12 +88,14 @@
                       tickets</label>
                   </div>
                 </div>
-                <div class="col-12">
+                <div class="col" style="padding-left: 50px;
+    padding-right: 50px;">
                   <label class="font-weight-bold" style="font-size: 25px; font-family: 'montserrat'; color: #eee2de;">If you are
                     purchasing more than 4 tickets, please lets us know how many tickets you will be purchasing down
                     below. Each ticket is $70</label>
                 </div>
-                <div class="col-md-6 mb-3">
+                <div class="col-12 mb-3" style="padding-left: 50px;
+    padding-right: 50px;">
                   <input type="text" class="form-control" id="AttendeesMoreaThan4"
                     placeholder="Enter number of attendees" size="50">
                 </div>
@@ -92,8 +106,9 @@
             </div>
           </form>
         </div>
+        <div class="col-md-3"></div>
       </div>
-      <div class="text-center">
+      <!--<div class="text-center">
         <a class="TqzB8b Ebdwsc" href="https://www.instagram.com/femaleforceunited/" target="_blank">
           <img src="https://upload.wikimedia.org/wikipedia/commons/9/95/Instagram_logo_2022.svg" jsaction="VQAsE"
             class="TqzB8b Ebdwsc" style="max-width: 1000px; height: 50px; margin: 28px 0px; width: 50px;"
@@ -106,7 +121,7 @@
             style="max-width: 1000px; height: 50px; margin: 28px 0px; width: 50px;" alt="Instagram - Wikipedia"
             jsname="kn3ccd" aria-hidden="false">
         </a>
-      </div>
+      </div> -->
     </div>
 
     <div class="row" style="background-color: #eee2de;">
