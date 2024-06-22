@@ -147,6 +147,32 @@ body {
 }
 
 
+
+.btn-4{
+    background: #EEE2DE;
+    border-radius: 999px;
+    box-shadow: linear-gradient(#180C27,#EEE2DE) 0 10px 20px -10px;
+    box-sizing: border-box;
+    color: #444444;
+    cursor: pointer;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 24px;
+    opacity: 1;
+    outline: 0 solid transparent;
+    padding: 8px 18px;
+    user-select: none;
+    -webkit-user-select: none;
+    touch-action: manipulation;
+    width: fit-content;
+    word-break: break-word;
+    border: 0; 
+    color: #180C27;
+}
+
+
+
+
 /*
 .card-container{
   padding-block: 5rem;
