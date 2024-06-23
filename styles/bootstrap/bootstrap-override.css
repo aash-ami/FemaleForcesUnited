@@ -409,3 +409,20 @@ padding: 15px 15px 15px 40px;
   font-weight: bold;
   unicode-bidi: isolate;
 }
+
+
+
+.wrapper span{
+width: 100px;
+text-align: center;
+font-size:55px;
+font-weight: 600;
+cursor: pointer;
+}
+
+.wrapper span.num{
+ font-size: 50px;
+ border-right: 2px solid rgba(0,0,0,0.2);
+ border-left: 2px solid rgba(0,0,0,0.2);
+pointer-events: none;
+}

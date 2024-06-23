@@ -15,7 +15,7 @@
 
 <body>
 
-  <div id="carouselExampleControls" class="carousel carousel-dark slide"  data-bs-ride="carousel">
+  <!--<div id="carouselExampleControls" class="carousel carousel-dark slide"  data-bs-ride="carousel">
     <div class="carousel-inner">
       <div class="carousel-item active">
         <div class="card-wrapper" style="color: #904c7d;">
@@ -113,7 +113,54 @@
       </button>
     </div>
   </div>
+-->
 
-<script src="/styles/bootstrap/bootstrap.bundle.min.js"></script>
+  <div class="wrapper1" style="align-items: center;
+  justify-content: center;
+  display: flex;
+  background: blue; height: 50vh; width: 50%;">
+    <div class="wrapper" style="height: 120px; min-width: 380px;background-color: #FFF; border-radius: 12px; display: flex;align-items: center; justify-content: center;  box-shadow: 0 5px 10px rgba(0,0,0,0.2);
+">
+      <span class="minus">-</span>
+      <span class="num">01</span>
+      <span class="plus">+</span>
+    </div>
+  </div>
+
+
+
+
+  <script>
+
+    const plus = document.querySelector(".plus"),
+      minus = document.querySelector(".minus"),
+      num = document.querySelector(".num");
+
+
+    let a = 1;
+
+    plus.addEventListener("click", () => {
+      a++;
+      a = (a < 10) ? "0" + a : a;
+      num.innerText = a;
+      console.log(a);
+
+    });
+
+    minus.addEventListener("click", () => {
+      if (a > 1) {
+        a--;
+        a = (a < 10) ? "0" + a : a;
+        num.innerText = a;
+      }
+    });
+
+  </script>
+
+
+
+
+  <!--<script src="/styles/bootstrap/bootstrap.bundle.min.js"></script>-->
 </body>
+
 </html>

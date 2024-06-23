@@ -44,7 +44,7 @@
                 padding-right: 50px;
             ">
                   <label for="FullName" class="fw-bold"
-                    style="color: #EEE2DE; font-size: 25px;font-family: 'montserrat';">Full Name</label>                
+                    style="color: #EEE2DE; font-size: 25px;font-family: 'montserrat';">Full Name</label>
                   <input type="text" class="form-control" id="FullName" placeholder="Full Name" required>
                 </div>
                 <div class="col-12 mb-2" style="padding-left: 50px;
@@ -63,23 +63,103 @@
     padding-right: 50px;">
                   <label for="Attendees" class="fw-bold"
                     style="color: #eee2de;font-size: 25px;font-family: 'montserrat';">Number of Attendees:</label>
+
+
+
+
+
+                    
+                  <div class="row">
+                    <div class="col"
+                      style="color: #eee2de;font-size: 25px;font-family: 'montserrat'; text-align: center;">
+                      <h3><b>Adult attendees</b></h3>
+                    </div>
+
+                    <div class="col"
+                      style="color: #eee2de;font-size: 25px;font-family: 'montserrat';text-align: center;">
+                      <h3><b>Youth attendees</b></h3>
+                    </div>
+                  </div>
+
+                  <div class="row">
+                    <div class="col">
+                      <div class="wrapper1" style="align-items: center;
+    display: flex;">
+                        <div class="wrapper" style="height: 120px; min-width: 100px;background-color: #FFF; border-radius: 12px; display: flex; align-items: center; justify-content: center; box-shadow: 0 5px 10px rgba(0,0,0,0.2);
+  ">
+                          <span class="minus">-</span>
+                          <span class="num">01</span>
+                          <span class="plus">+</span>
+                        </div>
+                      </div>
+                    </div>
+
+                    <div class="col">
+                      <div class="wrapper1" style="align-items: center;
+    display: flex;">
+                        <div class="wrapper" style="height: 120px; min-width: 100px;background-color: #FFF; border-radius: 12px; display: flex; align-items: center; justify-content: center; box-shadow: 0 5px 10px rgba(0,0,0,0.2);
+  ">
+                          <span class="minus">-</span>
+                          <span class="num">01</span>
+                          <span class="plus">+</span>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+
+
+
+
+
+
+
+
+
+
+
+                  <script>
+
+                    const plus = document.querySelector(".plus"),
+                      minus = document.querySelector(".minus"),
+                      num = document.querySelector(".num");
+
+
+                    let a = 1;
+
+                    plus.addEventListener("click", () => {
+                      a++;
+                      a = (a < 10) ? "0" + a : a;
+                      num.innerText = a;
+                      console.log(a);
+
+                    });
+
+                    minus.addEventListener("click", () => {
+                      if (a > 1) {
+                        a--;
+                        a = (a < 10) ? "0" + a : a;
+                        num.innerText = a;
+                      }
+                    });
+
+                  </script>
                   <div class="custom-control custom-radio">
                     <input type="radio" id="Attendees1" name="Attendees" class="custom-control-input">
                     <label class="custom-control-label" for="Attendees1" style="font-size: 20px;">1 ticket - $70</label>
                   </div>
                   <div class="custom-control custom-radio">
                     <input type="radio" id="Attendees2" name="Attendees" class="custom-control-input">
-                    <label class="custom-control-label" for="Attendees2" style="font-size: 20px;">2 tickets - 
+                    <label class="custom-control-label" for="Attendees2" style="font-size: 20px;">2 tickets -
                       $140</label>
                   </div>
                   <div class="custom-control custom-radio">
                     <input type="radio" id="Attendees3" name="Attendees" class="custom-control-input">
-                    <label class="custom-control-label" for="Attendees3" style="font-size: 20px;">3 tickets - 
+                    <label class="custom-control-label" for="Attendees3" style="font-size: 20px;">3 tickets -
                       $210</label>
                   </div>
                   <div class="custom-control custom-radio">
                     <input type="radio" id="Attendees4" name="Attendees" class="custom-control-input">
-                    <label class="custom-control-label" for="Attendees4" style="font-size: 20px;">4 tickets - 
+                    <label class="custom-control-label" for="Attendees4" style="font-size: 20px;">4 tickets -
                       $280</label>
                   </div>
                   <div class="custom-control custom-radio">
@@ -90,7 +170,8 @@
                 </div>
                 <div class="col" style="padding-left: 50px;
     padding-right: 50px;">
-                  <label class="font-weight-bold" style="font-size: 25px; font-family: 'montserrat'; color: #eee2de;">If you are
+                  <label class="font-weight-bold" style="font-size: 25px; font-family: 'montserrat'; color: #eee2de;">If
+                    you are
                     purchasing more than 4 tickets, please lets us know how many tickets you will be purchasing down
                     below. Each ticket is $70</label>
                 </div>
