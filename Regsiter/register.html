@@ -62,110 +62,58 @@
                 <div class="col-12 mb-2" style="font-family: 'montserrat'; padding-left: 50px;
     padding-right: 50px;">
                   <label for="Attendees" class="fw-bold"
-                    style="color: #eee2de;font-size: 25px;font-family: 'montserrat';">Number of Attendees:</label>
+                    style="color: #eee2de;font-size: 25px;font-family: 'montserrat'; padding-top: 0.5rem;">Number of Attendees:</label>
 
-
-
-
-
-                    
-                  <div class="row">
+                  <div class="row" style="padding-left: 3rem;">
                     <div class="col"
-                      style="color: #eee2de;font-size: 25px;font-family: 'montserrat'; text-align: center;">
+                      style="color: #eee2de;font-size: 25px;font-family: 'montserrat';">
                       <h3><b>Adult attendees</b></h3>
+                      
                     </div>
 
-                    <div class="col"
-                      style="color: #eee2de;font-size: 25px;font-family: 'montserrat';text-align: center;">
-                      <h3><b>Youth attendees</b></h3>
+                      <div class="col"
+                        style="color: #eee2de;font-size: 25px;font-family: 'montserrat';">
+                        <h3><b>Youth attendees</b></h3>
+                      </div>
+                    </div>
+
+                  <div class="row" style="padding-left: 2rem;">
+                    <div class="col">
+                      <div class="wrapper1" style="align-items: center;display: flex;">
+                        <div class="wrapper" style="height: 60px; min-width: 40px;background-color: #FFF; border-radius: 12px; display: flex; align-items: center; justify-content: center; box-shadow: 0 5px 10px rgba(0,0,0,0.2);">
+                          <span class="minus">-</span>
+                          <span class="num">00</span>
+                          <span class="plus">+</span>
+                        </div>
+                      </div>
+                    </div>
+
+                    <div class="col">
+                      <div class="wrapper1" style="align-items: center;
+    display: flex;">
+                        <div class="wrapper" style="height: 60px; min-width: 40px;background-color: #FFF; border-radius: 12px; display: flex; align-items: center; justify-content: center; box-shadow: 0 5px 10px rgba(0,0,0,0.2);
+  ">
+                          <span class="minus1">-</span>
+                          <span class="num1">00</span>
+                          <span class="plus1">+</span>
+                        </div>
+                      </div>
                     </div>
                   </div>
-
+                  <div class="row" style="padding-top: 1rem;">
+                    <div class="col text-center"
+                      style="color: #eee2de;font-size: 25px;font-family: 'montserrat';">
+                      <h3><b>Price</b></h3>
+                    </div>
+                  </div>                  
                   <div class="row">
                     <div class="col">
-                      <div class="wrapper1" style="align-items: center;
-    display: flex;">
-                        <div class="wrapper" style="height: 120px; min-width: 100px;background-color: #FFF; border-radius: 12px; display: flex; align-items: center; justify-content: center; box-shadow: 0 5px 10px rgba(0,0,0,0.2);
-  ">
-                          <span class="minus">-</span>
-                          <span class="num">01</span>
-                          <span class="plus">+</span>
+                      <div class="" style="padding-left: 13rem;">
+                        <div class="wrapper" style="height: 60px; width: 220px; background-color: #FFF; border-radius: 12px; display: flex; align-items: center; justify-content: center; box-shadow: 0 5px 10px rgba(0,0,0,0.2);">
+                          <span class="price" style="font-size: 40px; width: 100px;">$0.00</span>
                         </div>
                       </div>
                     </div>
-
-                    <div class="col">
-                      <div class="wrapper1" style="align-items: center;
-    display: flex;">
-                        <div class="wrapper" style="height: 120px; min-width: 100px;background-color: #FFF; border-radius: 12px; display: flex; align-items: center; justify-content: center; box-shadow: 0 5px 10px rgba(0,0,0,0.2);
-  ">
-                          <span class="minus">-</span>
-                          <span class="num">01</span>
-                          <span class="plus">+</span>
-                        </div>
-                      </div>
-                    </div>
-                  </div>
-
-
-
-
-
-
-
-
-
-
-
-                  <script>
-
-                    const plus = document.querySelector(".plus"),
-                      minus = document.querySelector(".minus"),
-                      num = document.querySelector(".num");
-
-
-                    let a = 1;
-
-                    plus.addEventListener("click", () => {
-                      a++;
-                      a = (a < 10) ? "0" + a : a;
-                      num.innerText = a;
-                      console.log(a);
-
-                    });
-
-                    minus.addEventListener("click", () => {
-                      if (a > 1) {
-                        a--;
-                        a = (a < 10) ? "0" + a : a;
-                        num.innerText = a;
-                      }
-                    });
-
-                  </script>
-                  <div class="custom-control custom-radio">
-                    <input type="radio" id="Attendees1" name="Attendees" class="custom-control-input">
-                    <label class="custom-control-label" for="Attendees1" style="font-size: 20px;">1 ticket - $70</label>
-                  </div>
-                  <div class="custom-control custom-radio">
-                    <input type="radio" id="Attendees2" name="Attendees" class="custom-control-input">
-                    <label class="custom-control-label" for="Attendees2" style="font-size: 20px;">2 tickets -
-                      $140</label>
-                  </div>
-                  <div class="custom-control custom-radio">
-                    <input type="radio" id="Attendees3" name="Attendees" class="custom-control-input">
-                    <label class="custom-control-label" for="Attendees3" style="font-size: 20px;">3 tickets -
-                      $210</label>
-                  </div>
-                  <div class="custom-control custom-radio">
-                    <input type="radio" id="Attendees4" name="Attendees" class="custom-control-input">
-                    <label class="custom-control-label" for="Attendees4" style="font-size: 20px;">4 tickets -
-                      $280</label>
-                  </div>
-                  <div class="custom-control custom-radio">
-                    <input type="radio" id="Attendees4more" name="Attendees" class="custom-control-input">
-                    <label class="custom-control-label" for="Attendees4more" style="font-size: 20px;">More than 4
-                      tickets</label>
                   </div>
                 </div>
                 <div class="col" style="padding-left: 50px;
@@ -291,9 +239,63 @@
         </div>
       </div>
     </div>
-
 </body>
 <script src="/styles/bootstrap/bootstrap.bundle.min.js"></script>
 <script src="/js/load-html.js"></script>
+<script>
 
+  const plus = document.querySelector(".plus"),
+    minus = document.querySelector(".minus"),
+    num = document.querySelector(".num"),
+    plus1 = document.querySelector(".plus1"),
+    minus1 = document.querySelector(".minus1"),
+    num1 = document.querySelector(".num1"),
+    price = document.querySelector(".price");
+
+
+  let a = 0;
+  let y = 0;
+  priceValue = 0;
+
+  plus.addEventListener("click", () => {
+    a++;
+    a = (a < 10) ? "0" + a : a;
+    num.innerText = a;
+    priceValue = priceValue + 70;
+    price.innerText = "$" + priceValue;
+    console.log(a);
+
+  });
+
+  minus.addEventListener("click", () => {
+    if (a > 0) {
+      a--;
+      a = (a < 10) ? "0" + a : a;
+      priceValue = priceValue - 70;
+      price.innerText = "$" + priceValue;
+      num.innerText = a;
+    }
+  });
+
+  plus1.addEventListener("click", () => {
+    y++;
+    y = (y < 10) ? "0" + y : y;
+    num1.innerText = y;
+    priceValue = priceValue + 70;
+    price.innerText = "$" + priceValue;
+    console.log(y);
+
+  });
+
+  minus1.addEventListener("click", () => {
+    if (y > 0) {
+      y--;
+      y = (y < 10) ? "0" + y : y;
+      priceValue = priceValue - 70;
+      price.innerText = "$" + priceValue;
+      num1.innerText = y;
+    }
+  });
+
+</script>
 </html>

@@ -413,11 +413,11 @@ padding: 15px 15px 15px 40px;
 
 
 .wrapper span{
-width: 100px;
-text-align: center;
-font-size:55px;
-font-weight: 600;
-cursor: pointer;
+  width: 80px;
+  text-align: center;
+  font-size:55px;
+  font-weight: 600;
+  cursor: pointer;
 }
 
 .wrapper span.num{
