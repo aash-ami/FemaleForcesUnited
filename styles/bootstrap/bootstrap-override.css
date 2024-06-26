@@ -446,3 +446,70 @@ padding: 15px 15px 15px 40px;
  border-left: 2px solid rgba(0,0,0,0.2);
 pointer-events: none;
 }
+
+.home-header-background{
+  background-image: url('/images/FFU/LandingpageH.PNG');
+  width: 100vw; 
+  height: 80vh; 
+  background-repeat: no-repeat;
+  position: relative;
+  background-size: 100% 100%;
+}
+
+.services-header-background{
+  background-image: url('/images/FFU/AboutUsH.PNG');
+  width: 100vw; 
+  height: 80vh; 
+  background-repeat: no-repeat;
+  position: relative;
+  background-size: 100% 100%;
+}
+
+.news-header-background{
+  background-image: url('/images/FFU/NewEventsH.PNG');
+  width: 100vw; 
+  height: 80vh; 
+  background-repeat: no-repeat;
+  position: relative;
+  background-size: 100% 100%;
+}
+
+.donations-header-background{
+  background-image: url('/images/FFU/NewEventsH.PNG');
+  width: 100vw; 
+  height: 80vh; 
+  background-repeat: no-repeat;
+  position: relative;
+  background-size: 100% 100%;
+}
+
+.register-header-background{
+  background-image: url('/images/FFU/2022 Cocktail fundraiser/2022 Cocktail fundraiser header.jpg');
+  width: 100vw; 
+  height: 80vh; 
+  background-repeat: no-repeat;
+  position: relative;
+  background-size: 100% 100%;
+}
+
+.gallery-header-background{
+  background-image: url('/images/FFU/2022 Cocktail fundraiser/2022 Cocktail fundraiser header.jpg');
+  width: 100vw; 
+  height: 80vh; 
+  background-repeat: no-repeat;
+  position: relative;
+  background-size: 100% 100%;
+}
+
+.ourteam-header-background{
+  background-image: url('/images/FFU/2022 Cocktail fundraiser/2022 Cocktail fundraiser header.jpg');
+  width: 100vw; 
+  height: 80vh; 
+  background-repeat: no-repeat;
+  position: relative;
+  background-size: 100% 100%;
+}
+
+li.nav-item >a.nav-link{
+  color: #eec3c3;
+}
