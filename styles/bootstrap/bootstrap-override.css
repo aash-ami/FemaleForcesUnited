@@ -484,7 +484,7 @@ pointer-events: none;
 }
 
 .register-header-background{
-  background-image: url('/images/FFU/2022 Cocktail fundraiser/2022 Cocktail fundraiser header.jpg');
+  background-image: url('/images/FFU/register.png');
   width: 100vw; 
   height: 80vh; 
   background-repeat: no-repeat;
@@ -493,7 +493,7 @@ pointer-events: none;
 }
 
 .gallery-header-background{
-  background-image: url('/images/FFU/2022 Cocktail fundraiser/2022 Cocktail fundraiser header.jpg');
+  background-image: url('/images/FFU/register.png');
   width: 100vw; 
   height: 80vh; 
   background-repeat: no-repeat;
@@ -502,7 +502,7 @@ pointer-events: none;
 }
 
 .ourteam-header-background{
-  background-image: url('/images/FFU/2022 Cocktail fundraiser/2022 Cocktail fundraiser header.jpg');
+  background-image: url('/images/FFU/ourteamheader.png');
   width: 100vw; 
   height: 80vh; 
   background-repeat: no-repeat;
@@ -512,4 +512,68 @@ pointer-events: none;
 
 li.nav-item >a.nav-link{
   color: #eec3c3;
+}
+
+.home-logo-overlay{     
+  position: absolute;
+  top: 150px;
+  left: 600px;
+}
+
+.home-logo-fit{
+  object-fit: cover;
+  object-position: 100%;
+  width: 200px; 
+  height: 200px;
+}
+
+.home-logo-overlay-text{   
+  position: absolute;
+  top: 360px;
+  left: 520px;
+  text-align: center;  
+}
+
+.home-logo-overlay-text h1{
+  font-size: 50px;
+  color: #FFFFFF;
+  font-family: 'Staatliches';
+  text-transform: uppercase;
+}
+
+.home-logo-overlay-text h4{
+  font-size: 20px;
+  color: #FFFFFF;
+  font-family: 'Montserrat';
+  text-transform: uppercase;
+  margin-bottom: 1.5rem;
+}
+
+.btn-home-donate-now {
+  background: #9867DC;
+  border-radius: 999px;
+  box-shadow: #66446F 0 10px 20px -10px;
+  box-sizing: border-box;
+  color: #FFFFFF;
+  cursor: pointer;
+  font-family: 'Zilla Slab';
+  font-size: 20px;
+  font-weight: 200;
+  line-height: 24px;
+  opacity: 1;
+  outline: 0 solid transparent;
+  padding-top: 10px;
+  padding-bottom: 15px;
+  padding-left: 70px;
+  padding-right: 70px;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+  width: fit-content;
+  word-break: break-word;
+  border: 0;  
+}
+
+a {
+text-decoration: none;
 }
