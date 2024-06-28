@@ -522,15 +522,15 @@ li.nav-item >a.nav-link{
 
 .home-logo-fit{
   object-fit: cover;
-  object-position: 100%;
-  width: 200px; 
+  object-position: 120%;
+  width: 200px; left: 30px;
   height: 200px;
 }
 
 .home-logo-overlay-text{   
   position: absolute;
   top: 360px;
-  left: 520px;
+  left: 550px;
   text-align: center;  
 }
 
@@ -546,7 +546,7 @@ li.nav-item >a.nav-link{
   color: #FFFFFF;
   font-family: 'Montserrat';
   text-transform: uppercase;
-  margin-bottom: 1.5rem;
+  margin-bottom: 2rem;
 }
 
 .btn-home-donate-now {
